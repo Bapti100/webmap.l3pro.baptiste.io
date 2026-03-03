@@ -3,7 +3,7 @@
 **Interactive mapping and urban mobility analysis for the city of Strasbourg**  
 _L3PRO MPGE • ENSG-Géomatique • 2024-2025_
 
-**Live demo**: https://XXX
+**Live demo**: https://bapti100.github.io/webmap.l3pro.baptiste.io/
 
 ---
 
