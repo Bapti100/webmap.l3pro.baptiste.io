@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <link rel="stylesheet" href="style_zermatt.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+  <meta charset="UTF-8">
+  <script src="app.js" defer></script>
+  <title>Ville de Zermatt</title>
+</head>
+
+<body>
+    <!-- Haut de page qui est le même sur toute les pages -->
+    <header>
+      <h1>Zermatt</h1>
+      <p>Une ville de montagne exceptionnelle en Suisse</p>
+      <h2>Canton du Valais</h2>
+    </header>
+    <!-- Menu qui est le même sur toute les pages -->
+    <div class="navigation">
+      <ul>
+        <li><a href="index.html#header">Home</a></li>
+        <li><a href="index.html#presentation">Présentation</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="carte.html">Carte</a></li>
+      </ul>
+    </div>
+
+  <!-- Carte leaflet -->
+  <div class="box">
+    <h4>Situation géographique</h4>
+    <div class="info_localisation">
+      <div class="carte_localisation" id="map"></div>
+    </div>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  <!-- <script src="./app.js"></script> -->
+
+  <footer>
+    <p>Site web réalisé par Fantou Baptiste dans le cadre d'un TP.</p>
+  </footer>
+</body>
+
+</html>

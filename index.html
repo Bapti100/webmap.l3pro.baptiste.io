@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <link rel="stylesheet" href="style_zermatt.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+  <meta charset="UTF-8">
+  <script src="app.js" defer></script>
+  <title>Ville de Zermatt</title>
+</head>
+
+<body>
+  <!-- Haut de page qui est le même sur toute les pages -->
+  <header>
+    <h1>Zermatt</h1>
+    <p>Une ville de montagne exceptionnelle en Suisse</p>
+    <h2>Canton du Valais</h2>
+  </header>
+  <!-- Menu qui est le même sur toute les pages -->
+  <div class="navigation">
+    <ul>
+      <li><a href="index.html#header">Home</a></li>
+      <li><a href="index.html#presentation">Présentation</a></li>
+      <li><a href="galerie.html">Galerie</a></li>
+      <li><a href="carte.html">Carte</a></li>
+    </ul>
+  </div>
+  <!-- Texte de présentation de la zone-->
+  <div id="presentation" class="box">
+    <a name="presentation"></a>
+    <h4>Présentation</h4>
+    <h3>Les Sports d’Hiver</h3>
+    <p>
+    Zermatt est une destination de rêve pour les amateurs de sports d’hiver. 
+    Avec son domaine skiable de plus de 360 km de pistes, relié à l’Italie par le Cervinia-Valtournenche, 
+    elle offre une diversité de pistes adaptées à tous les niveaux. Le glacier du Matterhorn permet de skier toute l’année, 
+    et les snowboarders profitent du Snowpark Zermatt. 
+    Les passionnés de freeride peuvent dévaler des itinéraires légendaires comme ceux du Rothorn ou du Stockhorn.
+    </p>
+    <h3>Les Sports d’Été</h3>
+    <p>
+    En été, Zermatt se transforme en un paradis pour les randonneurs et les alpinistes. 
+    Plus de 400 km de sentiers serpentent à travers des paysages alpins magnifiques. 
+    Les adeptes du VTT ont accès à des pistes variées, notamment le circuit du Gornergrat, 
+    qui offre une vue spectaculaire sur le Cervin. Pour une expérience plus intense, 
+    l’escalade sur le Breithorn est accessible aux amateurs cherchant à conquérir un sommet de 4 000 mètres.
+    </p>
+    <h3>Un Peu d’Histoire</h3>
+    <p>
+    Zermatt était autrefois un petit village agricole isolé, vivant principalement de l’élevage et de la production laitière. 
+    C’est la conquête du Cervin en 1865 par Edward Whymper qui l’a propulsée sur la scène internationale, 
+    attirant alpinistes et voyageurs. Avec le développement du tourisme, 
+    notamment grâce au chemin de fer du Gornergrat inauguré en 1898, 
+    Zermatt est devenue l’une des stations les plus prestigieuses des Alpes, 
+    tout en interdisant les voitures pour préserver son environnement.
+    </p>
+    <h3>Les Montagnes et Sentiers Incontournables</h3>
+    <p>
+    Le Cervin (Matterhorn) est bien sûr la star des montagnes alentour, 
+    mais Zermatt est entourée de nombreux sommets impressionnants comme le Mont Rose, le Weisshorn et le Dom. 
+    Parmi les randonnées les plus célèbres, 
+    le sentier des 5 lacs (5-Seenweg) permet d’admirer des reflets du Cervin dans des lacs cristallins. 
+    Le Gornergrat offre l’une des plus belles vues panoramiques des Alpes, accessible en train. 
+    Pour les randonneurs aguerris, le trek du Tour du Mont Rose est une aventure inoubliable.
+    </p>
+    <h3>Les Localités Environnantes</h3>
+    <p>
+    Zermatt est entourée de charmants villages alpins et de villes suisses emblématiques. 
+    Täsch, située à seulement 5 km, est la dernière localité accessible en voiture avant Zermatt. 
+    Plus au nord, Viège (Visp) est une porte d’entrée vers la vallée. De l’autre côté des montagnes, 
+    Cervinia en Italie est une station jumelle idéale pour prolonger le ski. À quelques heures de train, 
+    Montreux et Lausanne offrent un contraste saisissant avec leur ambiance lacustre et leurs vignobles en terrasse.
+    </p>
+  </div>
+
+  <!-- formulaire avec: nom, prenom, email -->
+  <form  class="box">
+    <p>Abonnez vous à notre newsletter !!</p>
+    <label for="nom">Nom:</label>
+    <input type="nom" id="nom" name="nom" placeholder="Entrez votre Nom" required>
+
+    <label for="prenom">Prénom:</label>
+    <input type="prenom" id="prenom" name="prenom" placeholder="Entrez votre Prénom" required>
+
+    <label for="email">Adresse email:</label>
+    <input type="email" id="email" name="email" placeholder="Entrez votre adresse email" required>
+
+    <button>S'abonner</button>
+  </form>
+  <footer>
+    <p>Site web réalisé par Fantou Baptiste dans le cadre d'un TP.</p>
+  </footer>
+</body>
+
+</html>
