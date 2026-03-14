@@ -1,6 +1,6 @@
 # Webmapping - Summary of the city of Zermatt
 
-**Interactive mapping and urban mobility analysis for the city of Strasbourg**  
+**WebSite of the city of Zermatt**  
 _L3PRO MPGE • ENSG-Géomatique • 2024-2025_
 
 **Live demo**: https://bapti100.github.io/webmap.l3pro.baptiste.io/
